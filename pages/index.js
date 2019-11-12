@@ -9,7 +9,7 @@ function Index({ shows }) {
       <ul>
         {shows.map(show => (
           <li key={show.id}>
-            <Link href="/p/[id]" as={`/p/${show.id}`}>
+            <Link href="/show/[id]" as={`/show/${show.id}`}>
               <a>{show.name}</a>
             </Link>
           </li>
