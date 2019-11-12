@@ -16,7 +16,11 @@ module.exports = {
         query: { id: show.id }
       };
     });
-
+    console.log("=======================");
+    console.log("=======================");
+    console.log(paths);
+    console.log("=======================");
+    console.log("=======================");
     return paths;
   }
 };
