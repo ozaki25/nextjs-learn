@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-const fetch = require("isomorphic-unfetch");
+import fetch from "isomorphic-unfetch";
 import Layout from "../../components/MyLayout";
 
 function Post({ show }) {
